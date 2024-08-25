@@ -1,1 +1,0 @@
-import{j as t,n as i}from"./entry.8da8cae9.js";import{u as r}from"./login.1b0370da.js";import"./vuex.esm-bundler.476a5dca.js";const s=t((o,a)=>{console.log("Auth middleware triggered");const{isLoggedIn:e}=r();if(console.log(e,"here"),!e.value&&o.path!=="/login")return i("/login")});export{s as default};

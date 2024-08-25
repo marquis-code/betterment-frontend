@@ -116,28 +116,25 @@
         <div class="mx-auto max-w-2xl lg:max-w-none">
           <div class="text-center">
             <h2
-              class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"
+              class="text-sm font-medium max-w-2xl mx-auto tracking-tight text-gray-900 sm:text-4xl"
             >
               Powered by Betterment, the largest independent digital investment
               advisor.
             </h2>
-            <p class="mt-4 text-lg leading-8 text-gray-600">
-              Powered by Betterment, the largest independent digital investment
-              advisor.
-            </p>
           </div>
           <dl
             class="mt-16 grid grid-cols-1 gap-0.5 overflow-hidden rounded-2xl text-center sm:grid-cols-2 lg:grid-cols-4"
           >
             <div class="flex flex-col bg-gray-400/5 p-8">
-              <dt class="text-sm font-semibold leading-6 text-gray-600">
+              <!-- <dt class="text-sm font-semibold leading-6 text-gray-600">
                 Creators on the platform
               </dt>
               <dd
                 class="order-first text-3xl font-semibold tracking-tight text-gray-900"
               >
                 8,000+
-              </dd>
+              </dd> -->
+              <img src="@/assets/img/sponsor1.png" />
             </div>
             <div class="flex flex-col bg-gray-400/5 p-8">
               <dt class="text-sm font-semibold leading-6 text-gray-600">
