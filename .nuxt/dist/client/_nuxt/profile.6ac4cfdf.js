@@ -1,0 +1,1 @@
+import{_ as n}from"./IndividualNavigationBar.vue.2fb55da3.js";import{v as a,C as s,f as _,h as c,j as o,l as r}from"./entry.4f9dfc67.js";import"./login.7ee85c42.js";import"./vuex.esm-bundler.ec97cb2d.js";const v=a({__name:"profile",setup(m){return s(),(p,i)=>{const e=n,t=r;return _(),c("div",null,[o(e,{class:"z-50"}),o(t,{class:"z-10"})])}}});export{v as default};

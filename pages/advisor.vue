@@ -324,7 +324,10 @@
           <h2 id="footer-heading" class="sr-only">Footer</h2>
           <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
             <div class="xl:grid xl:grid-cols-3 xl:gap-8">
-              <img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Company name">
+              <svg viewBox="0 0 91 74" width="35" height="29" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path d="M45.2571 60.0478C53.6288 63.0794 68.2782 68.3853 81.1967 73.0658C87.083 65.4792 90.5143 55.8131 90.5143 45.0369C90.5143 19.3603 71.0593 0 45.2571 0C19.4571 0 0 19.3603 0 45.0369C0 55.8153 3.42913 65.4792 9.31758 73.0658C22.26 68.3788 36.9311 63.0643 45.2571 60.0478Z" fill="#FFC729"></path>
+              </svg>
+              <!-- <img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Company name"> -->
               <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
                 <div class="md:grid md:grid-cols-2 md:gap-8">
                   <div class="mt-10 md:mt-0">

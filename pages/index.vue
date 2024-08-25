@@ -803,8 +803,168 @@
 
     <FaqSection />
 
+    <div class="w-full relative">
+      <img src="@/assets/img/landmark.svg" class="w-full" alt="" />
+     <div class="absolute inset-x-0 top-0 pt-10 lg:pt-44">
+      <div class="flex justify-center items-center flex-col">
+        <h1 class="flex justify-center items-center text-center text-lg lg:text-3xl">Make your money hustle.</h1>
+        <div class="flex items-center justify-center gap-x-6">
+          <a
+            href="#"
+            class="rounded-sm bg-blue-700 px-6 py-3 text-sm font-semibold shadow-sm text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+            >Schedule a demo</a
+          >
+        </div>
+      </div>
+     </div>
+    </div>
+    
+    <div class="bg-[#000b50] text-white p-6">
+      <section class="space-y-6 text-sm max-w-screen-2xl mx-auto bg-[#000b50] text-white">
+        <footer class="bg-[#000b50]" aria-labelledby="footer-heading">
+          <h2 id="footer-heading" class="sr-only">Footer</h2>
+          <div class="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:px-8 lg:py-32">
+            <div class="xl:grid xl:grid-cols-3 xl:gap-8">
+              <svg viewBox="0 0 91 74" width="35" height="29" xmlns="http://www.w3.org/2000/svg" fill="none">
+                <path d="M45.2571 60.0478C53.6288 63.0794 68.2782 68.3853 81.1967 73.0658C87.083 65.4792 90.5143 55.8131 90.5143 45.0369C90.5143 19.3603 71.0593 0 45.2571 0C19.4571 0 0 19.3603 0 45.0369C0 55.8153 3.42913 65.4792 9.31758 73.0658C22.26 68.3788 36.9311 63.0643 45.2571 60.0478Z" fill="#FFC729"></path>
+              </svg>
+              <!-- <img class="h-7" src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=500" alt="Company name"> -->
+              <div class="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                  <div class="mt-10 md:mt-0">
+                    <h3 class="text-lg font-semibold leading-6 text-white">What we offer</h3>
+                    <ul role="list" class="mt-6 space-y-4">
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Portfolio management</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Back-office integration</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Client Experience
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Cash management</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Advised 401(k) plans</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="md:grid md:grid-cols-2 md:gap-8">
+                  <div>
+                    <h3 class="text-lg font-semibold leading-6 text-white">How we serve</h3>
+                    <ul role="list" class="mt-6 space-y-4">
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Going independent</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Scaling your practice</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Diversifying clientele</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Onboarding clients</a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="mt-10 md:mt-0">
+                    <h3 class="text-lg font-semibold leading-6 text-white">Resources</h3>
+                    <ul role="list" class="mt-6 space-y-4">
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">About us</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Advisor blog</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Technical help</a>
+                      </li>
+                      <li>
+                        <a href="#" class="text-base leading-6 text-white hover:text-white">Contact us</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        
+        <P>
+          This web property is operated and maintained by Betterment LLC, an SEC Registered Investment Advisor—for investment professionals only. It is not intended for use by private investors.
+        </P>
+        <P
+          >
+          The articles and customer support materials available on this property are educational only and not investment or tax advice.
+          </P
+        >
+    <h4>Who Provides What Service?</h4>
+        <P
+          >
+          Investment Advice:  Advisory services for traditional investments (e.g., ETFs) and digital assets are provided by Betterment LLC, an SEC-registered investment adviser. Betterment LLC does not require clients to maintain a minimum investment account balance. However, accounts below a certain balance may have certain restrictions. For more information, please see additional disclosure. 
+          </P
+        >
+    
+        <P
+          >
+          Traditional Investment Brokerage Services & Custody:  Brokerage services are provided to clients of Betterment LLC by Betterment Securities, an SEC-registered broker-dealer and member of FINRA /SIPC, and Apex Clearing Corporation, a third-party SEC registered broker-dealer and member FINRA/SIPC.
+        </P>
+    
+        <P
+          >
+          Digital Asset Trading Services & Custody:  Digital asset trading services and custody are provided by Gemini Trust Company, LLC.  For further details regarding the custody of assets, including cash, held at Gemini Trust Company, please see your Gemini user agreement.
+        </P>
+    
+        <h4>Let’s Talk about Risk</h4>
+        <P
+          >
+          Investing involves risk and there is the potential of losing money when you invest in securities and digital assets. Past performance does not guarantee future results and the likelihood of investment outcomes are hypothetical in nature.  
+          </P
+        >
+    
+        <p>
+          Investments in securities and digital assets are: Not FDIC Insured • Not Bank Guaranteed • May Lose Value. 
+        </p>
+    
+        <p>
+          Furthermore, investing in digital assets is highly speculative and volatile, and only suitable for investors who are able to bear the risk of potential loss and experience sharp drawdowns.  Digital assets are not legal tender and are not backed by the U.S. government. Digital assets are not subject to SIPC protections.  
+        </p>
+    
+        <p>
+          Before investing, consider your investment objectives and Betterment LLC's fees and expenses. Betterment LLC's internet-based advisory services are designed to assist clients in achieving discrete financial goals. They are not intended to provide comprehensive tax advice or financial planning with respect to every aspect of a client's financial situation and do not incorporate specific investments that clients hold elsewhere. For more details, see Betterment’s Form CRS, Form ADV Part II and other disclosures. 
+        </p>
+    
+        <p>
+          Not an offer, solicitation of an offer, or advice to buy or sell securities in jurisdictions where Betterment LLC is not registered.
+        </p>
+        <h4>Who Provides the Market Data?</h4>
+        <p class="border-b border-white pb-4">
+          Market Data by Xignite. Fund data © 2022 Morningstar.  All Rights Reserved.  The information contained herein:  (1) is proprietary to Morningstar and/or its content providers; (2) may not be copied or distributed; and  (3) is not warranted to be accurate, complete or timely.  Neither Morningstar nor its content providers are responsible for any damages or losses arising from any use of this information. 
+        </p>
+    
+        <p>You are viewing a web property located at Betterment.com. Different properties may be provided by a different entity with different marketing standards.</p>
+        
+        <div class="space-x-3">
+          <a href="#" class="underline px-3">Site Map</a> | <a href="#" class="underline px-3">Terms of Use</a> | <a href="#" class="underline px-3">Privacy Policy</a> | <a href="#" class="underline px-3">Trademark</a> | <a href="#" class="underline px-3">Legal Directory</a> | <a href="#" class="underline px-3">Privacy controls</a>
+        </div>
+    
+        <p>Google Play and the Google Play logo are trademarks of Google, Inc.</p>
+    
+        <p>Apple, the Apple logo, and iPhone are trademarks of Apple, Inc., registered in the U.S.</p>
+    
+        <p>Betterment assumes no responsibility or liability whatsoever for the content, accuracy, reliability or opinions expressed in a third-party website, to which a published article links (a “linked website”). Such linked websites are not monitored, investigated, or checked for accuracy or completeness by Betterment. It is your responsibility to evaluate the accuracy, reliability, timeliness and completeness of any information available on a linked website. All products, services, and content obtained from a linked website are provided “as is” without warranty of any kind, express or implied, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, title, non-infringement, security, or accuracy. If Betterment has a relationship or affiliation with the author or content, it will note this in additional disclosure.</p>
+    
+        <p class="pb-10">© Betterment. All rights reserved</p>
+      </section>
+    </div>
+    
 
-    <section class="space-y-6 text-sm max-w-screen-2xl mx-auto">
+
+    <!-- <section class="space-y-6 text-sm max-w-screen-2xl mx-auto">
       <FooterSection class="" />
       <P>
         Betterment LLC was selected as the Best Overall Robo Advisor for 2024 by
@@ -1160,7 +1320,7 @@
         timely. Neither Morningstar nor its content providers are responsible
         for any damages or losses arising from any use of this information.
       </p>
-    </section>
+    </section> -->
   </main>
 </template>
 
