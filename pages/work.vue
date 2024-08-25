@@ -368,7 +368,7 @@
       <div class="p-20">
         <img
           alt=""
-          src="@/assets/img/complianceHub.png"
+          src="@/assets/img/ComplianceHub.png"
           class="h-56 w-full object-cover sm:h-full"
         />
       </div>
