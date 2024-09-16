@@ -63,7 +63,7 @@
     </template>
     
     <script setup lang="ts">
-    import { useLogin } from '@/composables/auth/login'
+    import { useLogin } from '@/composables/useLogin'
     const { user, isLoggedIn, logOut, } = useLogin()
     const isMobileNav = ref(false)
     const router = useRouter()

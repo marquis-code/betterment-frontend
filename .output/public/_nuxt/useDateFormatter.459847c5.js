@@ -1,0 +1,1 @@
+const r=(t,n="en-US",e={})=>{if(!t)return"";const o={...{year:"numeric",month:"long",day:"numeric",hour:"2-digit",minute:"2-digit",second:"2-digit"},...e},i=new Date(t);return new Intl.DateTimeFormat(n,o).format(i)};export{r as f};

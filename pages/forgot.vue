@@ -7,15 +7,15 @@
             <h3 class="text-gray-800 text-xl font-semibold">Forgot your password?</h3>
             <p class="text-sm text-gray-700">If you forgot your password, please enter the email address associated with your account to reset your password.</p>
            </div>
-          <form @submit.prevent="handleLogin" class="space-y-6" action="#" method="POST">
+          <form @submit.prevent="submitForm" class="space-y-6" action="#" method="POST">
             <div>
               <label for="email" class="block text-sm font-medium leading-6 text-[#0D0C22]">Email</label>
               <CoreEmailInput @completed="handleEmail" />
           </div>
 
             <div>
-              <button :disabled="!isFormEmpty || loading" type="submit" class="flex disabled:cursor-not-allowed disabled:opacity-25 w-full justify-center rounded-md bg-indigo-600 px-3 py-2.5 text-sm font-semibold leading-6 text-white shadow-sm">
-                {{ loading ? 'processing...' : 'Send reset email' }}
+              <button :disabled="processing" type="submit" class="flex disabled:cursor-not-allowed disabled:opacity-25 w-full justify-center rounded-md bg-indigo-600 px-3 py-2.5 text-sm font-semibold leading-6 text-white shadow-sm">
+                {{ processing ? 'processing...' : 'Send reset email' }}
               </button>
             </div>
           </form>
@@ -26,26 +26,37 @@
     </template>
     
     <script setup lang="ts">
-    import { useLogin } from "@/composables/auth/login";
+    import { useForgotPassword } from '@/composables/useForgotPassword'
     import eyeOpen from "@/assets/icons/eye-open.svg";
     import eyeClose from "@/assets/icons/eye-close.svg";
-    const { handleLogin, loginPayload, loading, isFormEmpty } = useLogin();
     const showPassword = ref(false);
+    const {  processing,
+    tokenSent,
+    handleForgetPassword } = useForgotPassword()
     
     const eye = computed(() => {
       return !showPassword.value ? eyeClose : eyeOpen;
     });
+
+    const form = ref({
+      email: ''
+    })
+    
     
     const togglePasswordVisibility = () => {
       showPassword.value = !showPassword.value;
     };
     
     const handleEmail = (email: string) => {
-      loginPayload.value.email = email
+      form.value.email = email
     }
-    
+
     definePageMeta({
         layout: 'auth'
     })
+
+    const submitForm = () => {
+      handleForgetPassword(form.value.email)
+    }
     </script>
     

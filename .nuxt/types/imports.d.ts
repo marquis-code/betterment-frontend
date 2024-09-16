@@ -24,6 +24,8 @@ declare global {
   const definePayloadReducer: typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']
   const definePayloadReviver: typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']
   const defineSlots: typeof import('../../node_modules/vue')['defineSlots']
+  const dynamicIcons: typeof import('../../utils/assets')['dynamicIcons']
+  const dynamicImage: typeof import('../../utils/assets')['dynamicImage']
   const effect: typeof import('../../node_modules/vue')['effect']
   const effectScope: typeof import('../../node_modules/vue')['effectScope']
   const generateCurrentDateISO: typeof import('../../utils/generateDate')['generateCurrentDateISO']
@@ -90,26 +92,34 @@ declare global {
   const triggerRef: typeof import('../../node_modules/vue')['triggerRef']
   const unref: typeof import('../../node_modules/vue')['unref']
   const updateAppConfig: typeof import('../../node_modules/nuxt/dist/app')['updateAppConfig']
+  const useAdminInfo: typeof import('../../composables/useAdminInfo')['useAdminInfo']
+  const useAdminStats: typeof import('../../composables/useAdminStats')['useAdminStats']
   const useAppConfig: typeof import('../../node_modules/nuxt/dist/app')['useAppConfig']
   const useAsyncData: typeof import('../../node_modules/nuxt/dist/app')['useAsyncData']
   const useAttrs: typeof import('../../node_modules/vue')['useAttrs']
+  const useBuyPlan: typeof import('../../composables/useBuyPlan')['useBuyPlan']
   const useCookie: typeof import('../../node_modules/nuxt/dist/app')['useCookie']
   const useCssModule: typeof import('../../node_modules/vue')['useCssModule']
   const useCssVars: typeof import('../../node_modules/vue')['useCssVars']
   const useError: typeof import('../../node_modules/nuxt/dist/app')['useError']
   const useFetch: typeof import('../../node_modules/nuxt/dist/app')['useFetch']
+  const useForgotPassword: typeof import('../../composables/useForgotPassword')['useForgotPassword']
   const useHead: typeof import('../../node_modules/@unhead/vue')['useHead']
   const useHeadSafe: typeof import('../../node_modules/@unhead/vue')['useHeadSafe']
   const useLazyAsyncData: typeof import('../../node_modules/nuxt/dist/app')['useLazyAsyncData']
   const useLazyFetch: typeof import('../../node_modules/nuxt/dist/app')['useLazyFetch']
   const useLink: typeof import('../vue-router')['useLink']
+  const useLogin: typeof import('../../composables/useLogin')['useLogin']
   const useModel: typeof import('../../node_modules/vue')['useModel']
   const useNuxtApp: typeof import('../../node_modules/nuxt/dist/app')['useNuxtApp']
   const useNuxtData: typeof import('../../node_modules/nuxt/dist/app')['useNuxtData']
+  const useProcessTransaction: typeof import('../../composables/useProcessTransaction')['useProcessTransaction']
+  const useProfitUpdate: typeof import('../../composables/useProfitUpdate')['useProfitUpdate']
   const useRequestEvent: typeof import('../../node_modules/nuxt/dist/app')['useRequestEvent']
   const useRequestFetch: typeof import('../../node_modules/nuxt/dist/app')['useRequestFetch']
   const useRequestHeaders: typeof import('../../node_modules/nuxt/dist/app')['useRequestHeaders']
   const useRequestURL: typeof import('../../node_modules/nuxt/dist/app')['useRequestURL']
+  const useResetPassword: typeof import('../../composables/useResetPassword')['useResetPassword']
   const useRoute: typeof import('../../node_modules/nuxt/dist/app')['useRoute']
   const useRouter: typeof import('../../node_modules/nuxt/dist/app')['useRouter']
   const useRuntimeConfig: typeof import('../../node_modules/nuxt/dist/app')['useRuntimeConfig']
@@ -117,9 +127,21 @@ declare global {
   const useServerHead: typeof import('../../node_modules/@unhead/vue')['useServerHead']
   const useServerHeadSafe: typeof import('../../node_modules/@unhead/vue')['useServerHeadSafe']
   const useServerSeoMeta: typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']
+  const useSignup: typeof import('../../composables/useSignup')['useSignup']
   const useSlots: typeof import('../../node_modules/vue')['useSlots']
   const useState: typeof import('../../node_modules/nuxt/dist/app')['useState']
+  const useTransaction: typeof import('../../composables/useTransaction')['useTransaction']
+  const useTransactionHistory: typeof import('../../composables/useTransactionHistory')['useTransactionHistory']
+  const useTransactions: typeof import('../../composables/useGetTransactions')['useTransactions']
   const useTransitionState: typeof import('../../node_modules/vue')['useTransitionState']
+  const useUpdateAdmin: typeof import('../../composables/useUpdateAdmin')['useUpdateAdmin']
+  const useUpdateAdminUser: typeof import('../../composables/updateUserFromAdmin')['useUpdateAdminUser']
+  const useUpdateUser: typeof import('../../composables/useUpdateUser')['useUpdateUser']
+  const useUpdateWallet: typeof import('../../composables/useUpdateWallet')['useUpdateWallet']
+  const useUser: typeof import('../../composables/user')['useUser']
+  const useUserInfo: typeof import('../../composables/useUserInfo')['useUserInfo']
+  const useUserTransactions: typeof import('../../composables/useGetUserTransactions')['useUserTransactions']
+  const useUsers: typeof import('../../composables/fetchUsers')['useUsers']
   const watch: typeof import('../../node_modules/vue')['watch']
   const watchEffect: typeof import('../../node_modules/vue')['watchEffect']
   const watchPostEffect: typeof import('../../node_modules/vue')['watchPostEffect']
@@ -163,6 +185,8 @@ declare module 'vue' {
     readonly definePayloadReducer: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']>
     readonly definePayloadReviver: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']>
     readonly defineSlots: UnwrapRef<typeof import('../../node_modules/vue')['defineSlots']>
+    readonly dynamicIcons: UnwrapRef<typeof import('../../utils/assets')['dynamicIcons']>
+    readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
     readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
@@ -229,26 +253,34 @@ declare module 'vue' {
     readonly triggerRef: UnwrapRef<typeof import('../../node_modules/vue')['triggerRef']>
     readonly unref: UnwrapRef<typeof import('../../node_modules/vue')['unref']>
     readonly updateAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['updateAppConfig']>
+    readonly useAdminInfo: UnwrapRef<typeof import('../../composables/useAdminInfo')['useAdminInfo']>
+    readonly useAdminStats: UnwrapRef<typeof import('../../composables/useAdminStats')['useAdminStats']>
     readonly useAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAppConfig']>
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAsyncData']>
     readonly useAttrs: UnwrapRef<typeof import('../../node_modules/vue')['useAttrs']>
+    readonly useBuyPlan: UnwrapRef<typeof import('../../composables/useBuyPlan')['useBuyPlan']>
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useCookie']>
     readonly useCssModule: UnwrapRef<typeof import('../../node_modules/vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('../../node_modules/vue')['useCssVars']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useError']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useFetch']>
+    readonly useForgotPassword: UnwrapRef<typeof import('../../composables/useForgotPassword')['useForgotPassword']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyAsyncData']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyFetch']>
     readonly useLink: UnwrapRef<typeof import('../vue-router')['useLink']>
+    readonly useLogin: UnwrapRef<typeof import('../../composables/useLogin')['useLogin']>
     readonly useModel: UnwrapRef<typeof import('../../node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtData']>
+    readonly useProcessTransaction: UnwrapRef<typeof import('../../composables/useProcessTransaction')['useProcessTransaction']>
+    readonly useProfitUpdate: UnwrapRef<typeof import('../../composables/useProfitUpdate')['useProfitUpdate']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestFetch']>
     readonly useRequestHeaders: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestHeaders']>
     readonly useRequestURL: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestURL']>
+    readonly useResetPassword: UnwrapRef<typeof import('../../composables/useResetPassword')['useResetPassword']>
     readonly useRoute: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRoute']>
     readonly useRouter: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRouter']>
     readonly useRuntimeConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRuntimeConfig']>
@@ -256,9 +288,21 @@ declare module 'vue' {
     readonly useServerHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHeadSafe']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']>
+    readonly useSignup: UnwrapRef<typeof import('../../composables/useSignup')['useSignup']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useState']>
+    readonly useTransaction: UnwrapRef<typeof import('../../composables/useTransaction')['useTransaction']>
+    readonly useTransactionHistory: UnwrapRef<typeof import('../../composables/useTransactionHistory')['useTransactionHistory']>
+    readonly useTransactions: UnwrapRef<typeof import('../../composables/useGetTransactions')['useTransactions']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
+    readonly useUpdateAdmin: UnwrapRef<typeof import('../../composables/useUpdateAdmin')['useUpdateAdmin']>
+    readonly useUpdateAdminUser: UnwrapRef<typeof import('../../composables/updateUserFromAdmin')['useUpdateAdminUser']>
+    readonly useUpdateUser: UnwrapRef<typeof import('../../composables/useUpdateUser')['useUpdateUser']>
+    readonly useUpdateWallet: UnwrapRef<typeof import('../../composables/useUpdateWallet')['useUpdateWallet']>
+    readonly useUser: UnwrapRef<typeof import('../../composables/user')['useUser']>
+    readonly useUserInfo: UnwrapRef<typeof import('../../composables/useUserInfo')['useUserInfo']>
+    readonly useUserTransactions: UnwrapRef<typeof import('../../composables/useGetUserTransactions')['useUserTransactions']>
+    readonly useUsers: UnwrapRef<typeof import('../../composables/fetchUsers')['useUsers']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('../../node_modules/vue')['watchEffect']>
     readonly watchPostEffect: UnwrapRef<typeof import('../../node_modules/vue')['watchPostEffect']>
@@ -296,6 +340,8 @@ declare module '@vue/runtime-core' {
     readonly definePayloadReducer: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReducer']>
     readonly definePayloadReviver: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['definePayloadReviver']>
     readonly defineSlots: UnwrapRef<typeof import('../../node_modules/vue')['defineSlots']>
+    readonly dynamicIcons: UnwrapRef<typeof import('../../utils/assets')['dynamicIcons']>
+    readonly dynamicImage: UnwrapRef<typeof import('../../utils/assets')['dynamicImage']>
     readonly effect: UnwrapRef<typeof import('../../node_modules/vue')['effect']>
     readonly effectScope: UnwrapRef<typeof import('../../node_modules/vue')['effectScope']>
     readonly generateCurrentDateISO: UnwrapRef<typeof import('../../utils/generateDate')['generateCurrentDateISO']>
@@ -362,26 +408,34 @@ declare module '@vue/runtime-core' {
     readonly triggerRef: UnwrapRef<typeof import('../../node_modules/vue')['triggerRef']>
     readonly unref: UnwrapRef<typeof import('../../node_modules/vue')['unref']>
     readonly updateAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['updateAppConfig']>
+    readonly useAdminInfo: UnwrapRef<typeof import('../../composables/useAdminInfo')['useAdminInfo']>
+    readonly useAdminStats: UnwrapRef<typeof import('../../composables/useAdminStats')['useAdminStats']>
     readonly useAppConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAppConfig']>
     readonly useAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useAsyncData']>
     readonly useAttrs: UnwrapRef<typeof import('../../node_modules/vue')['useAttrs']>
+    readonly useBuyPlan: UnwrapRef<typeof import('../../composables/useBuyPlan')['useBuyPlan']>
     readonly useCookie: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useCookie']>
     readonly useCssModule: UnwrapRef<typeof import('../../node_modules/vue')['useCssModule']>
     readonly useCssVars: UnwrapRef<typeof import('../../node_modules/vue')['useCssVars']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useError']>
     readonly useFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useFetch']>
+    readonly useForgotPassword: UnwrapRef<typeof import('../../composables/useForgotPassword')['useForgotPassword']>
     readonly useHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHead']>
     readonly useHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useHeadSafe']>
     readonly useLazyAsyncData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyAsyncData']>
     readonly useLazyFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useLazyFetch']>
     readonly useLink: UnwrapRef<typeof import('../vue-router')['useLink']>
+    readonly useLogin: UnwrapRef<typeof import('../../composables/useLogin')['useLogin']>
     readonly useModel: UnwrapRef<typeof import('../../node_modules/vue')['useModel']>
     readonly useNuxtApp: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtApp']>
     readonly useNuxtData: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useNuxtData']>
+    readonly useProcessTransaction: UnwrapRef<typeof import('../../composables/useProcessTransaction')['useProcessTransaction']>
+    readonly useProfitUpdate: UnwrapRef<typeof import('../../composables/useProfitUpdate')['useProfitUpdate']>
     readonly useRequestEvent: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestEvent']>
     readonly useRequestFetch: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestFetch']>
     readonly useRequestHeaders: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestHeaders']>
     readonly useRequestURL: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRequestURL']>
+    readonly useResetPassword: UnwrapRef<typeof import('../../composables/useResetPassword')['useResetPassword']>
     readonly useRoute: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRoute']>
     readonly useRouter: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRouter']>
     readonly useRuntimeConfig: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useRuntimeConfig']>
@@ -389,9 +443,21 @@ declare module '@vue/runtime-core' {
     readonly useServerHead: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHead']>
     readonly useServerHeadSafe: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerHeadSafe']>
     readonly useServerSeoMeta: UnwrapRef<typeof import('../../node_modules/@unhead/vue')['useServerSeoMeta']>
+    readonly useSignup: UnwrapRef<typeof import('../../composables/useSignup')['useSignup']>
     readonly useSlots: UnwrapRef<typeof import('../../node_modules/vue')['useSlots']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app')['useState']>
+    readonly useTransaction: UnwrapRef<typeof import('../../composables/useTransaction')['useTransaction']>
+    readonly useTransactionHistory: UnwrapRef<typeof import('../../composables/useTransactionHistory')['useTransactionHistory']>
+    readonly useTransactions: UnwrapRef<typeof import('../../composables/useGetTransactions')['useTransactions']>
     readonly useTransitionState: UnwrapRef<typeof import('../../node_modules/vue')['useTransitionState']>
+    readonly useUpdateAdmin: UnwrapRef<typeof import('../../composables/useUpdateAdmin')['useUpdateAdmin']>
+    readonly useUpdateAdminUser: UnwrapRef<typeof import('../../composables/updateUserFromAdmin')['useUpdateAdminUser']>
+    readonly useUpdateUser: UnwrapRef<typeof import('../../composables/useUpdateUser')['useUpdateUser']>
+    readonly useUpdateWallet: UnwrapRef<typeof import('../../composables/useUpdateWallet')['useUpdateWallet']>
+    readonly useUser: UnwrapRef<typeof import('../../composables/user')['useUser']>
+    readonly useUserInfo: UnwrapRef<typeof import('../../composables/useUserInfo')['useUserInfo']>
+    readonly useUserTransactions: UnwrapRef<typeof import('../../composables/useGetUserTransactions')['useUserTransactions']>
+    readonly useUsers: UnwrapRef<typeof import('../../composables/fetchUsers')['useUsers']>
     readonly watch: UnwrapRef<typeof import('../../node_modules/vue')['watch']>
     readonly watchEffect: UnwrapRef<typeof import('../../node_modules/vue')['watchEffect']>
     readonly watchPostEffect: UnwrapRef<typeof import('../../node_modules/vue')['watchPostEffect']>

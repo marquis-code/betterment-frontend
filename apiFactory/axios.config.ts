@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-  baseURL: "https://app-edu-tech-api.onrender.com/api",
+  baseURL: "https://clone-better.onrender.com",
 });
 
 axiosInstance.interceptors.request.use((config: any) => {

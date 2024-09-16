@@ -13,7 +13,7 @@
   </div>
 </div> -->
 
-<div class="flex justify-center items-center border-b sticky top-16 z-50 bg-white shadow-sm">
+<!-- <div class="flex justify-center items-center border-b sticky top-16 z-50 bg-white shadow-sm mx-2">
   <div class="sm:block">
     <div class="border-b border-gray-200">
       <nav class="-mb-px flex space-x-8 max-w-lg overflow-x-auto whitespace-nowrap sm:overflow-visible sm:whitespace-normal" aria-label="Tabs">
@@ -21,6 +21,20 @@
         <a @click.native="activeTab = 'section2'" :class="[activeTab === 'section2' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700']" href="#section2" class="whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium">High APY to grow your savings</a>
         <a @click.native="activeTab = 'section3'" :class="[activeTab === 'section3' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700']" href="#section3" class="whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium" aria-current="page">Tax-advantaged IRAs for retirement</a>
       </nav>
+    </div>
+  </div>
+</div> -->
+
+<div class="px-3">
+  <div class="flex justify-center items-center border-b sticky top-16 z-50 bg-white shadow-sm mx-2">
+    <div class="sm:block">
+      <div class="border-b border-gray-200 overflow-hidden">
+        <nav class="-mb-px flex space-x-8 max-w-lg overflow-x-auto no-scrollbar whitespace-nowrap sm:overflow-visible sm:whitespace-normal" aria-label="Tabs">
+          <a @click.native="activeTab = 'section1'" :class="[activeTab === 'section1' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700']" href="#section1" class="whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium">Automated Investing to help you build wealth</a>
+          <a @click.native="activeTab = 'section2'" :class="[activeTab === 'section2' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700']" href="#section2" class="whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium">High APY to grow your savings</a>
+          <a @click.native="activeTab = 'section3'" :class="[activeTab === 'section3' ? 'border-indigo-500 text-indigo-600' : 'border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700']" href="#section3" class="whitespace-nowrap border-b-2 px-1 py-4 text-sm font-medium" aria-current="page">Tax-advantaged IRAs for retirement</a>
+        </nav>
+      </div>
     </div>
   </div>
 </div>
@@ -412,7 +426,7 @@
       </div>
     </section>
 
-    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-screen-lg mx-auto">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 max-w-screen-lg mx-auto p-4 lg:p-0">
       <div
         class="relative flex items-center space-x-3 rounded-lg border border-gray-300 bg-white px-6 py-5 shadow-sm focus-within:ring-2 focus-within:ring-indigo-500 focus-within:ring-offset-2 hover:border-gray-400"
       >
@@ -601,207 +615,211 @@
       </div>
     </div>
 
-    <div class="max-w-2xl mx-auto space-y-6 pt-20">
-      <h3
-        class="mt-2 text-4xl font-bold text-start tracking-tight text-gray-900 sm:text-2xl sm:max-w-sm"
-      >
-        Want to know how you can make the most of your money? Take our quiz.
-      </h3>
-      <ul
-        role="list"
-        class="divide-y divide-gray-100 overflow-hidden bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl border border-gray-100"
-      >
-        <li
-          class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
-        >
-          <div class="flex min-w-0 gap-x-4">
-            <img
-              class="h-12 w-12 flex-none rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            />
-            <div class="min-w-0 flex-auto">
-              <p class="text-sm font-semibold leading-6 text-gray-900">
-                <a href="#">
-                  <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                  I'm in school
-                </a>
-              </p>
-              <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                <a
-                  href="mailto:leslie.alexander@example.com"
-                  class="relative truncate hover:underline"
-                  >Lorem</a
-                >
-              </p>
-            </div>
-          </div>
-          <div class="flex shrink-0 items-center gap-x-4">
-            <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
-              <p class="text-sm leading-6 text-gray-900">I'm working or job hunting</p>
-              <p class="mt-1 text-xs leading-5 text-gray-500">
-                Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
-              </p>
-            </div> -->
-            <svg
-              class="h-5 w-5 flex-none text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+<section class="bg-[#000b50] mt-20">
+  <div class="max-w-2xl mx-auto space-y-6 pt-20">
+    <h3
+      class="mt-2 text-xl font-bold pl-5 lg:pl-0 text-start tracking-tight text-white sm:text-xl sm:max-w-sm"
+    >
+      Want to know how you can make the most of your money? Take our quiz.
+    </h3>
+  <div class="p-6 lg:p-0">
+    <ul
+    role="list"
+    class="divide-y divide-gray-100 overflow-hidden bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl border border-gray-100"
+  >
+    <li
+      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+    >
+      <div class="flex min-w-0 gap-x-4">
+        <img
+          class="h-12 w-12 flex-none rounded-full bg-gray-50"
+          src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          alt=""
+        />
+        <div class="min-w-0 flex-auto">
+          <p class="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#">
+              <span class="absolute inset-x-0 -top-px bottom-0"></span>
+              I'm in school
+            </a>
+          </p>
+          <p class="mt-1 flex text-xs leading-5 text-gray-500">
+            <a
+              href="mailto:leslie.alexander@example.com"
+              class="relative truncate hover:underline"
+              >Lorem</a
             >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-        </li>
-        <li
-          class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+          </p>
+        </div>
+      </div>
+      <div class="flex shrink-0 items-center gap-x-4">
+        <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
+          <p class="text-sm leading-6 text-gray-900">I'm working or job hunting</p>
+          <p class="mt-1 text-xs leading-5 text-gray-500">
+            Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
+          </p>
+        </div> -->
+        <svg
+          class="h-5 w-5 flex-none text-gray-400"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
         >
-          <div class="flex min-w-0 gap-x-4">
-            <img
-              class="h-12 w-12 flex-none rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            />
-            <div class="min-w-0 flex-auto">
-              <p class="text-sm font-semibold leading-6 text-gray-900">
-                <a href="#">
-                  <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                  I'm working or job hunting
-                </a>
-              </p>
-              <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                <a
-                  href="mailto:michael.foster@example.com"
-                  class="relative truncate hover:underline"
-                  >michael.foster@example.com</a
-                >
-              </p> -->
-            </div>
-          </div>
-          <div class="flex shrink-0 items-center gap-x-4">
-            <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
-              <p class="text-sm leading-6 text-gray-900">Co-Founder / CTO</p>
-              <p class="mt-1 text-xs leading-5 text-gray-500">
-                Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
-              </p>
-            </div> -->
-            <svg
-              class="h-5 w-5 flex-none text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+          <path
+            fill-rule="evenodd"
+            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+    >
+      <div class="flex min-w-0 gap-x-4">
+        <img
+          class="h-12 w-12 flex-none rounded-full bg-gray-50"
+          src="https://images.unsplash.com/photo-1519244703995-f4e0f30006d5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          alt=""
+        />
+        <div class="min-w-0 flex-auto">
+          <p class="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#">
+              <span class="absolute inset-x-0 -top-px bottom-0"></span>
+              I'm working or job hunting
+            </a>
+          </p>
+          <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
+            <a
+              href="mailto:michael.foster@example.com"
+              class="relative truncate hover:underline"
+              >michael.foster@example.com</a
             >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-        </li>
-        <li
-          class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+          </p> -->
+        </div>
+      </div>
+      <div class="flex shrink-0 items-center gap-x-4">
+        <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
+          <p class="text-sm leading-6 text-gray-900">Co-Founder / CTO</p>
+          <p class="mt-1 text-xs leading-5 text-gray-500">
+            Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
+          </p>
+        </div> -->
+        <svg
+          class="h-5 w-5 flex-none text-gray-400"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
         >
-          <div class="flex min-w-0 gap-x-4">
-            <img
-              class="h-12 w-12 flex-none rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            />
-            <div class="min-w-0 flex-auto">
-              <p class="text-sm font-semibold leading-6 text-gray-900">
-                <a href="#">
-                  <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                  I'm retired
-                </a>
-              </p>
-              <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                <a
-                  href="mailto:dries.vincent@example.com"
-                  class="relative truncate hover:underline"
-                  >dries.vincent@example.com</a
-                >
-              </p> -->
-            </div>
-          </div>
-          <div class="flex shrink-0 items-center gap-x-4">
-            <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
-              <p class="text-sm leading-6 text-gray-900">Business Relations</p>
-              <div class="mt-1 flex items-center gap-x-1.5">
-                <div class="flex-none rounded-full bg-emerald-500/20 p-1">
-                  <div class="h-1.5 w-1.5 rounded-full bg-emerald-500"></div>
-                </div>
-                <p class="text-xs leading-5 text-gray-500">Online</p>
-              </div>
-            </div> -->
-            <svg
-              class="h-5 w-5 flex-none text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+          <path
+            fill-rule="evenodd"
+            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+    >
+      <div class="flex min-w-0 gap-x-4">
+        <img
+          class="h-12 w-12 flex-none rounded-full bg-gray-50"
+          src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          alt=""
+        />
+        <div class="min-w-0 flex-auto">
+          <p class="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#">
+              <span class="absolute inset-x-0 -top-px bottom-0"></span>
+              I'm retired
+            </a>
+          </p>
+          <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
+            <a
+              href="mailto:dries.vincent@example.com"
+              class="relative truncate hover:underline"
+              >dries.vincent@example.com</a
             >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
+          </p> -->
+        </div>
+      </div>
+      <div class="flex shrink-0 items-center gap-x-4">
+        <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
+          <p class="text-sm leading-6 text-gray-900">Business Relations</p>
+          <div class="mt-1 flex items-center gap-x-1.5">
+            <div class="flex-none rounded-full bg-emerald-500/20 p-1">
+              <div class="h-1.5 w-1.5 rounded-full bg-emerald-500"></div>
+            </div>
+            <p class="text-xs leading-5 text-gray-500">Online</p>
           </div>
-        </li>
-        <li
-          class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+        </div> -->
+        <svg
+          class="h-5 w-5 flex-none text-gray-400"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
         >
-          <div class="flex min-w-0 gap-x-4">
-            <img
-              class="h-12 w-12 flex-none rounded-full bg-gray-50"
-              src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
-              alt=""
-            />
-            <div class="min-w-0 flex-auto">
-              <p class="text-sm font-semibold leading-6 text-gray-900">
-                <a href="#">
-                  <span class="absolute inset-x-0 -top-px bottom-0"></span>
-                  I'm in school
-                </a>
-              </p>
-              <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
-                <a
-                  href="mailto:lindsay.walton@example.com"
-                  class="relative truncate hover:underline"
-                  >lindsay.walton@example.com</a
-                >
-              </p> -->
-            </div>
-          </div>
-          <div class="flex shrink-0 items-center gap-x-4">
-            <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
-              <p class="text-sm leading-6 text-gray-900">Front-end Developer</p>
-              <p class="mt-1 text-xs leading-5 text-gray-500">
-                Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
-              </p>
-            </div> -->
-            <svg
-              class="h-5 w-5 flex-none text-gray-400"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-              aria-hidden="true"
+          <path
+            fill-rule="evenodd"
+            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+    <li
+      class="relative flex justify-between gap-x-6 px-4 py-5 hover:bg-gray-50 sm:px-6"
+    >
+      <div class="flex min-w-0 gap-x-4">
+        <img
+          class="h-12 w-12 flex-none rounded-full bg-gray-50"
+          src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80"
+          alt=""
+        />
+        <div class="min-w-0 flex-auto">
+          <p class="text-sm font-semibold leading-6 text-gray-900">
+            <a href="#">
+              <span class="absolute inset-x-0 -top-px bottom-0"></span>
+              I'm in school
+            </a>
+          </p>
+          <!-- <p class="mt-1 flex text-xs leading-5 text-gray-500">
+            <a
+              href="mailto:lindsay.walton@example.com"
+              class="relative truncate hover:underline"
+              >lindsay.walton@example.com</a
             >
-              <path
-                fill-rule="evenodd"
-                d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
-                clip-rule="evenodd"
-              />
-            </svg>
-          </div>
-        </li>
-      </ul>
-    </div>
+          </p> -->
+        </div>
+      </div>
+      <div class="flex shrink-0 items-center gap-x-4">
+        <!-- <div class="hidden sm:flex sm:flex-col sm:items-end">
+          <p class="text-sm leading-6 text-gray-900">Front-end Developer</p>
+          <p class="mt-1 text-xs leading-5 text-gray-500">
+            Last seen <time datetime="2023-01-23T13:23Z">3h ago</time>
+          </p>
+        </div> -->
+        <svg
+          class="h-5 w-5 flex-none text-gray-400"
+          viewBox="0 0 20 20"
+          fill="currentColor"
+          aria-hidden="true"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </div>
+    </li>
+  </ul>
+  </div>
+  </div>
 
-    <FaqSection />
+  <FaqSection class="" />
+</section>
 
     <div class="w-full relative">
       <img src="@/assets/img/landmark.svg" class="w-full" alt="" />
@@ -1363,3 +1381,17 @@ definePageMeta({
     layout: 'default'
 })
 </script>
+
+<style>
+  /* Hide scrollbar for WebKit browsers */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* Hide scrollbar for other browsers */
+  .no-scrollbar {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+</style>
+

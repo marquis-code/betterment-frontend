@@ -1,18 +1,18 @@
 <template>
-    <div class="bg-white">
+    <div class="bg-[#000b50]">
       <div class="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8">
         <div class="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 class="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+          <h2 class="text-2xl font-bold leading-10 tracking-tight text-white">
             Still have questions?
           </h2>
-          <dl class="mt-10 space-y-6 divide-y divide-gray-900/10">
+          <dl class="mt-10 space-y-6 divide-y divide-white">
             <div v-for="(item, index) in faqItems" :key="index" class="pt-6">
               <dt>
                 <!-- Expand/collapse question button -->
                 <button
                   type="button"
                   @click="toggleFaq(index)"
-                  class="flex w-full items-start justify-between text-left text-gray-900"
+                  class="flex w-full items-start justify-between text-left text-white"
                   :aria-expanded="openIndex === index"
                 >
                   <span class="text-base font-semibold leading-7">
@@ -56,7 +56,7 @@
               </dt>
               <dd
                 v-show="openIndex === index"
-                class="mt-2 pr-12 space-y-4 text-base leading-7 text-gray-600"
+                class="mt-2 pr-12 space-y-4 text-base leading-7 text-white"
               >
                 <p v-for="(answer, answerIndex) in item.answers" :key="answerIndex">
                   {{ answer }}
