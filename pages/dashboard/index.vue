@@ -1,4 +1,5 @@
 <template>
+<main>
   <div class="min-h-screen p-1 lg:p-8 space-y-8">
     <CryptoTicker />
 
@@ -7,15 +8,16 @@
       class="bg-blue-100 space-y-4 lg:space-y-0 rounded-lg p-4 lg:flex justify-between items-center shadow-lg"
     >
       <p class="text-blue-900 text-sm lg:text-lg font-semibold">
-        Good morning <span class="font-bold">abah</span> 😊 we are super excited
+        Hello <span class="font-bold">{{user?.name ?? 'Nil'}}</span> 😊 we are super excited
         to have you here with us, our ultimate concern is to see a smile on your
         face.
       </p>
       <button
-        @click="router.push('/dashboard/deposits')"
+        v-if="user.Status !== 'Active'"
+        @click="isModalOpen = true"
         class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition duration-300"
       >
-        Get Started
+        Verify KYC
       </button>
     </div>
 
@@ -118,13 +120,21 @@
 
     <TradingViewTable />
   </div>
+
+        <KYCModal :isOpen="isModalOpen"
+        @close="isModalOpen = false" />
+</main>
 </template>
 
 <script lang="ts" setup>
 import { useCurrency } from '@/composables/core/useCurrency';
 import { useUserTransactions } from "@/composables/useGetUserTransactions";
 import { useUserInfo } from "@/composables/useUserInfo";
+import { useUser } from '@/composables/user'
+const isModalOpen = ref(false)
+  const { user } = useUser()
 const { formatToDollar } = useCurrency();
+const kycModalOpen = ref(false)
 const {
   transactionsList,
   loading,

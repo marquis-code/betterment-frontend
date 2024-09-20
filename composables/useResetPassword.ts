@@ -36,6 +36,7 @@ export function useResetPassword() {
       } else {
         localStorage.removeItem('user-email')
         router.push('/login')
+        window.location.href = "/login"
       }
     } finally {
       processing.value = false

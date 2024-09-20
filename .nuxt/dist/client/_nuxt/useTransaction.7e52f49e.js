@@ -1,5 +1,0 @@
-import{u as i}from"./user.655c7c7f.js";import{r as n,z as p}from"./entry.8102741e.js";const e=n({amount:"",wallet:"",proof:"",type:""});function f(){const o=n(!1),{token:r}=i(),l=async()=>{o.value=!0;try{const t=`
-        mutation newTransaction($input: NewTransaction!) {
-          newTransaction(input: $input)
-        }
-      `,a=await(await fetch("https://clone-better.onrender.com/graphql/query",{method:"POST",headers:{"content-type":"application/json",authorization:`Bearer ${r.value}`},body:JSON.stringify({query:t,variables:{input:u.value}})})).json();a!=null&&a.errors?console.error(a.errors[0].message):(e.value.amount="",e.value.wallet="",console.log("You have successfully initiated a withdrawal"))}finally{o.value=!1}},s=t=>{e.value.amount=t.amount,e.value.proof=t.proof,e.value.wallet=t.wallet,e.value.type=t.type},u=p(()=>{if(e.value.type==="Withdrawal")return{amount:e.value.amount,wallet:e.value.wallet,transactionType:e.value.type};if(e.value.type==="Deposit")return{amount:e.value.amount,wallet:e.value.wallet,transactionType:e.value.type,proof:e.value.proof}});return{processing:o,handleTransaction:l,form:e,setFormData:s}}export{f as u};

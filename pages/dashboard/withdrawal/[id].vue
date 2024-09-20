@@ -11,11 +11,11 @@
               class="py-3 border border-gray-600 text-sm rounded-md w-full outline-none pl-6">
           </div>
           <div class="space-y-4">
-            <label class="text-xs text-gray-700 font-medium">Withdrawal Type</label>
+            <label class="text-xs text-gray-700 font-medium">Crypto deposit type</label>
             <select v-model="formObj.withdrawalType"
               class="py-3 border border-gray-600 text-sm rounded-md w-full outline-none pl-6">
               <option value="" disabled>
-                ---- Select withdrawal type -----
+                ---- Select deposit type -----
               </option>
               <option value="bitcoin">
                 Bitcoin

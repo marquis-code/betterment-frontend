@@ -170,11 +170,11 @@
         path: '/admin/dashboard/transactions',
         name: 'Transactions',
       },
-      // {
-      //   icon: dashboard,
-      //   path: '/admin/dashboard/profile',
-      //   name: 'Profile',
-      // },
+      {
+        icon: dashboard,
+        path: '/admin/dashboard/profile',
+        name: 'Profile',
+      },
     ])
 
     const logOut = () => {

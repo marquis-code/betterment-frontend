@@ -4,7 +4,7 @@
       class=" flex justify-center items-center pt-20 container mx-auto"
     >
       <div class="w-full max-w-md p-8 space-y-6 rounded-xl bg-white">
-        <img class="h-10 w-auto pl-9" src="@/assets/img/logo.png" alt="Your Company">
+        <img class="h-10 w-auto " src="@/assets/img/logo.png" alt="Your Company">
         <h1 class="text-3xl font-bold">Almost Done!</h1>
         <p class="text-gray-500 text-sm leading-loose">
           Please enter your reset password token and your new password.
@@ -38,13 +38,8 @@
           </div>
           <div class="w-full">
             <button
-              :disabled="!isFormEmpty"
-              :class="[
-                !isFormEmpty || processing
-                  ? 'opacity-25 cursor-not-allowed'
-                  : '',
-              ]"
-              class="w-full shrink-0 text-xs disabled:cursor-not-allowed disabled:opacity-25 rounded-md border border-green-500 bg-green-600 px-12 py-3 font-medium text-white transition"
+              :disabled="processing"
+              class="w-full shrink-0 text-sm disabled:cursor-not-allowed disabled:opacity-25 rounded-md border border-green-500 bg-green-600 px-12 py-3 font-medium text-white transition"
             >
               {{ processing ? "processing..." : "Submit" }}
             </button>
@@ -62,7 +57,7 @@ const {   processing,
 const user = ref('');
 const form = ref({
   resetCode: "",
-  email: "",
+  email: window.localStorage.getItem("user-email"),
   password: "",
 });
 

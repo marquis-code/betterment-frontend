@@ -11,7 +11,7 @@
       <!-- Greeting Section -->
       <div class="bg-blue-100 rounded-lg p-4 flex justify-between items-center shadow-lg">
         <p class="text-blue-900 text-lg font-semibold">
-          Good morning <span class="font-bold">abah</span> 😊 we are super excited to have you here with us, our ultimate concern is to see a smile on your face.
+          Goo <span class="font-bold">{{user?.name ?? 'Nil'}}</span> 😊 we are super excited to have you here with us, our ultimate concern is to see a smile on your face.
         </p>
         <button class="bg-green-500 text-white py-2 px-4 rounded-lg hover:bg-green-600 transition duration-300">
           Get Started
@@ -124,6 +124,8 @@
   </template>
   
   <script lang="ts" setup>
+  import { useUser } from '@/composables/user'
+  const { user } = useUser()
     definePageMeta({
   layout: "dashboard",
   // middleware: "authenticated",

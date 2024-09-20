@@ -12,13 +12,13 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Your one stop shop for all your groceries!",
+          "An easy way to invest & save",
       },
       {
         hid: "keywords",
         name: "keywords",
         content:
-          "Your one stop shop for all your groceries!",
+          "An easy way to invest & save",
       },
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
@@ -26,7 +26,7 @@ export default {
         hid: "description",
         name: "description",
         content:
-          "Your one stop shop for all your groceries!",
+          "An easy way to invest & save",
       },
       { name: "format-detection", content: "telephone=no" },
       { name: "mobile-web-app-capable", content: "yes" },
@@ -155,7 +155,7 @@ export default {
       mobileAppIOS: false,
       mobileApp: true,
       description:
-        "Your one stop shop for all your groceries!",
+        "An easy way to invest & save",
       theme_color: "#27396B",
       background_color: "#27396B",
       display: "standalone",
