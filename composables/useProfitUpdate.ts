@@ -2,20 +2,19 @@ import { ref } from 'vue'
 import { useUser } from '@/composables/user'
 
 export function useProfitUpdate() {
+  const { token } = useUser()
   const processingProfitUpdate = ref(false)
   const updateProfitStatus = ref(null)
-  const { token } = useUser()
+
 
   const handleProfitUpdate = async () => {
     processingProfitUpdate.value = true
-    const accessToken = JSON.parse(localStorage.getItem('auth') || '')
 
     const mutation = `
       mutation {
         updateProfits
       }
     `
-
     try {
       const response = await fetch('https://clone-better.onrender.com/graphql/query', {
         method: 'POST',
