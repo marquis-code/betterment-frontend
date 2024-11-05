@@ -48,7 +48,6 @@ export function useUpdateUser() {
         }
       )
       const data = await response.json()
-      console.log(data, 'datta jere')
       if (data?.errors?.length) {
         useNuxtApp().$toast.success('Something went wrong', {
           autoClose: 5000,

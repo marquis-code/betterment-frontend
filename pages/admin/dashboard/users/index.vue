@@ -179,7 +179,6 @@ const closeModal = () => {
 }
 
 const proceedToEditUser = () => {
-  console.log(selectedUser.value.id, 'Herepooooooooo', payload)
   const payloadObj = {
     name: payload?.value?.name,
     email: payload?.value?.email,

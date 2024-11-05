@@ -1,0 +1,1 @@
+import{n as a,L as t,O as s,o as c,c as _,b as e,a7 as r}from"./entry.d021d1c2.js";const m=a({__name:"profile",setup(i){return t(),(l,p)=>{const n=s("IndividualNavigationBar"),o=r;return c(),_("div",null,[e(n,{class:"z-50"}),e(o,{class:"z-10"})])}}});export{m as default};

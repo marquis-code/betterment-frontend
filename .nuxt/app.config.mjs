@@ -1,6 +1,6 @@
 
 import { updateAppConfig } from '#app'
-import { defuFn } from '/Users/marquis.abah/bettermentFrontend/node_modules/defu/dist/defu.mjs'
+import { defuFn } from '/Users/mac/betterment-frontend/node_modules/defu/dist/defu.mjs'
 
 const inlineConfig = {}
 

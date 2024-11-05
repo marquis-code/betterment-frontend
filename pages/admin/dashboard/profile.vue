@@ -89,7 +89,6 @@ const openProfitModal = () => {
 }
 
 const handleUpdateProfits = (data: any) => {
-  console.log(data, 'here')
   const payload = {
       name: data.walletAddress,
       address: data.profit

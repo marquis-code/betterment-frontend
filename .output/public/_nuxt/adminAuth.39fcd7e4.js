@@ -1,0 +1,1 @@
+import{u as t}from"./user.d31346c8.js";import{a6 as a,W as i}from"./entry.d021d1c2.js";const n=a((o,r)=>{const{user:e}=t();if(!e.value.isAuthenticated||!e.value.isAdmin)return i("/admin/login")});export{n as default};
