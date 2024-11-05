@@ -326,11 +326,11 @@
       class="overflow-hidden sm:grid sm:grid-cols-2 max-w-screen-2xl mx-auto pt-20"
     >
       <div class="p-20">
-        <img
+        <!-- <img
           alt=""
           src="@/assets/img/ComplianceHub.png"
           class="h-56 w-full object-cover sm:h-full"
-        />
+        /> -->
       </div>
       <div class="p-8 md:p-12 lg:px-16 lg:py-24">
         <div class="mx-auto max-w-xl space-y-4">

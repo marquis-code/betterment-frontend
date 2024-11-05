@@ -1,37 +1,37 @@
 const client_manifest = {
-  "_EmailInput.vue.56adb1b8.js": {
+  "_EmailInput.vue.1fae2648.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "EmailInput.vue.56adb1b8.js",
+    "file": "EmailInput.vue.1fae2648.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_Modal.vue.af1b55f5.js": {
+  "_Modal.vue.8d7612a5.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "Modal.vue.af1b55f5.js",
+    "file": "Modal.vue.8d7612a5.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_UpdateCryptoWalletModal.58342010.js": {
+  "_UpdateCryptoWalletModal.fa67044f.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "UpdateCryptoWalletModal.58342010.js",
+    "file": "UpdateCryptoWalletModal.fa67044f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js",
-      "_useUserInfo.59402a95.js"
+      "_user.18d1d1bb.js",
+      "_useUserInfo.9ce74f9c.js"
     ]
   },
-  "_assets.d3411b49.js": {
+  "_assets.9dcc6464.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -113,7 +113,7 @@ const client_manifest = {
       "wealth.0f5bb1b3.svg",
       "weeding-payment.e471ee13.svg"
     ],
-    "file": "assets.d3411b49.js",
+    "file": "assets.9dcc6464.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -568,17 +568,17 @@ const client_manifest = {
     "prefetch": true,
     "mimeType": "image/svg+xml"
   },
-  "_client-only.1a4ae6d6.js": {
+  "_client-only.2e28761e.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "client-only.1a4ae6d6.js",
+    "file": "client-only.2e28761e.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_coloured-avatar.e2e6da83.js": {
+  "_coloured-avatar.d1dbd355.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -586,12 +586,12 @@ const client_manifest = {
     "assets": [
       "coloured-avatar.b1fd2142.svg"
     ],
-    "file": "coloured-avatar.e2e6da83.js",
+    "file": "coloured-avatar.d1dbd355.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_dash3.4697500d.js": {
+  "_dash3.cc43f136.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -600,12 +600,12 @@ const client_manifest = {
       "dash2.2d555967.png",
       "dash3.42bdf8db.png"
     ],
-    "file": "dash3.4697500d.js",
+    "file": "dash3.cc43f136.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_dashboard.d696dbe3.js": {
+  "_dashboard.1093f3ec.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -613,12 +613,12 @@ const client_manifest = {
     "assets": [
       "dashboard.1b317eb6.svg"
     ],
-    "file": "dashboard.d696dbe3.js",
+    "file": "dashboard.1093f3ec.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_eye-close.5dada3e8.js": {
+  "_eye-close.58436fbc.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -627,23 +627,23 @@ const client_manifest = {
       "eye-open.0980a840.svg",
       "eye-close.5b70a48a.svg"
     ],
-    "file": "eye-close.5dada3e8.js",
+    "file": "eye-close.58436fbc.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_fetchUsers.760022a9.js": {
+  "_fetchUsers.ca41b78d.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "fetchUsers.760022a9.js",
+    "file": "fetchUsers.ca41b78d.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js"
+      "_user.18d1d1bb.js"
     ]
   },
-  "_landmark.7cb63ab6.js": {
+  "_landmark.89025c28.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -651,12 +651,12 @@ const client_manifest = {
     "assets": [
       "landmark.f7ddfa6f.svg"
     ],
-    "file": "landmark.7cb63ab6.js",
+    "file": "landmark.89025c28.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_logo.6c7fcc80.js": {
+  "_logo.54074fe8.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
@@ -664,39 +664,39 @@ const client_manifest = {
     "assets": [
       "logo.efdae7ca.png"
     ],
-    "file": "logo.6c7fcc80.js",
+    "file": "logo.54074fe8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_nuxt-link.d0fba5f7.js": {
+  "_nuxt-link.35f94b51.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "nuxt-link.d0fba5f7.js",
+    "file": "nuxt-link.35f94b51.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_sweetalert2.all.8aacdd64.js": {
+  "_sweetalert2.all.d2a3158c.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "sweetalert2.all.8aacdd64.js",
+    "file": "sweetalert2.all.d2a3158c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_useAdminInfo.b6127576.js": {
+  "_useAdminInfo.7783e354.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useAdminInfo.b6127576.js",
+    "file": "useAdminInfo.7783e354.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
@@ -714,88 +714,88 @@ const client_manifest = {
     "preload": true,
     "file": "useDateFormatter.459847c5.js"
   },
-  "_useGetUserTransactions.cbdea4e4.js": {
+  "_useGetUserTransactions.e00dc12b.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useGetUserTransactions.cbdea4e4.js",
+    "file": "useGetUserTransactions.e00dc12b.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_useLogin.2894eea2.js": {
+  "_useLogin.0c1b3ef7.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useLogin.2894eea2.js",
+    "file": "useLogin.0c1b3ef7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js"
+      "_user.18d1d1bb.js"
     ]
   },
-  "_useTransaction.8e467b31.js": {
+  "_useTransaction.d9e7737b.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useTransaction.8e467b31.js",
+    "file": "useTransaction.d9e7737b.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_useTransactionHistory.f79143e7.js": {
+  "_useTransactionHistory.aee483a4.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useTransactionHistory.f79143e7.js",
+    "file": "useTransactionHistory.aee483a4.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js"
+      "_user.18d1d1bb.js"
     ]
   },
-  "_useUpdateUser.beef8063.js": {
+  "_useUpdateUser.4a663baa.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useUpdateUser.beef8063.js",
+    "file": "useUpdateUser.4a663baa.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js"
+      "_user.18d1d1bb.js"
     ]
   },
-  "_useUserInfo.59402a95.js": {
+  "_useUserInfo.9ce74f9c.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "useUserInfo.59402a95.js",
+    "file": "useUserInfo.9ce74f9c.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_user.d31346c8.js": {
+  "_user.18d1d1bb.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "user.d31346c8.js",
+    "file": "user.18d1d1bb.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
   },
-  "_vue.f36acd1f.6b021094.js": {
+  "_vue.f36acd1f.6427c5bc.js": {
     "resourceType": "script",
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "vue.f36acd1f.6b021094.js",
+    "file": "vue.f36acd1f.6427c5bc.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ]
@@ -1347,15 +1347,15 @@ const client_manifest = {
     "css": [
       "admin-dashboard.48677e84.css"
     ],
-    "file": "admin-dashboard.68169b0b.js",
+    "file": "admin-dashboard.2a673ea9.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js",
-      "_coloured-avatar.e2e6da83.js",
-      "_user.d31346c8.js",
-      "_sweetalert2.all.8aacdd64.js",
-      "_dashboard.d696dbe3.js"
+      "_logo.54074fe8.js",
+      "_coloured-avatar.d1dbd355.js",
+      "_user.18d1d1bb.js",
+      "_sweetalert2.all.d2a3158c.js",
+      "_dashboard.1093f3ec.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/admin-dashboard.vue"
@@ -1371,10 +1371,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth-with-logo-only.3aaf8de3.js",
+    "file": "auth-with-logo-only.9c01cdb8.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js"
+      "_logo.54074fe8.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/auth-with-logo-only.vue"
@@ -1384,7 +1384,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.8817c96b.js",
+    "file": "auth.f341907f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1409,11 +1409,11 @@ const client_manifest = {
     "css": [
       "betterment-advisor.a938156d.css"
     ],
-    "file": "betterment-advisor.debc5d50.js",
+    "file": "betterment-advisor.a62557b7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useLogin.2894eea2.js",
-      "_user.d31346c8.js"
+      "_useLogin.0c1b3ef7.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/betterment-advisor.vue"
@@ -1429,7 +1429,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "betterment-work.b8da53be.js",
+    "file": "betterment-work.8600eb5a.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1451,15 +1451,15 @@ const client_manifest = {
     "css": [
       "dashboard.c005291e.css"
     ],
-    "file": "dashboard.1871dfe6.js",
+    "file": "dashboard.8ab9baf2.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js",
-      "_coloured-avatar.e2e6da83.js",
-      "_user.d31346c8.js",
-      "_sweetalert2.all.8aacdd64.js",
-      "_dashboard.d696dbe3.js"
+      "_logo.54074fe8.js",
+      "_coloured-avatar.d1dbd355.js",
+      "_user.18d1d1bb.js",
+      "_sweetalert2.all.d2a3158c.js",
+      "_dashboard.1093f3ec.js"
     ],
     "isDynamicEntry": true,
     "src": "layouts/dashboard.vue"
@@ -1475,9 +1475,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "default.69ae79d1.js",
+    "file": "default.ea69d1af.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1488,7 +1488,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "profile.025c91ce.js",
+    "file": "profile.c3cb4781.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1500,9 +1500,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "adminAuth.39fcd7e4.js",
+    "file": "adminAuth.2edb8d51.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1513,9 +1513,9 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "auth.ce781949.js",
+    "file": "auth.ea4377bc.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1536,10 +1536,10 @@ const client_manifest = {
     "css": [
       "error-404.95c28eb4.css"
     ],
-    "file": "error-404.c02bf17b.js",
+    "file": "error-404.2b594102.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
-      "_vue.f36acd1f.6b021094.js",
+      "_nuxt-link.35f94b51.js",
+      "_vue.f36acd1f.6427c5bc.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1566,9 +1566,9 @@ const client_manifest = {
     "css": [
       "error-500.e798523c.css"
     ],
-    "file": "error-500.a121fe6c.js",
+    "file": "error-500.e16849a2.js",
     "imports": [
-      "_vue.f36acd1f.6b021094.js",
+      "_vue.f36acd1f.6427c5bc.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1609,7 +1609,7 @@ const client_manifest = {
       "node_modules/@nuxt/ui-templates/dist/templates/error-404.vue",
       "node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"
     ],
-    "file": "entry.d021d1c2.js",
+    "file": "entry.fa9cac2e.js",
     "isEntry": true,
     "src": "node_modules/nuxt/dist/app/entry.js"
   },
@@ -1624,14 +1624,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.ae9292b5.js",
+    "file": "index.fc7ef4a2.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useTransaction.8e467b31.js",
-      "_user.d31346c8.js",
-      "_Modal.vue.af1b55f5.js",
-      "_useAdminInfo.b6127576.js",
-      "_assets.d3411b49.js"
+      "_useTransaction.d9e7737b.js",
+      "_user.18d1d1bb.js",
+      "_Modal.vue.8d7612a5.js",
+      "_useAdminInfo.7783e354.js",
+      "_assets.9dcc6464.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/deposits/index.vue"
@@ -1655,16 +1655,16 @@ const client_manifest = {
     "css": [
       "index.7b2c3e74.css"
     ],
-    "file": "index.e739108c.js",
+    "file": "index.a2c3211f.js",
     "imports": [
-      "_dash3.4697500d.js",
+      "_dash3.cc43f136.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js",
-      "_useGetUserTransactions.cbdea4e4.js",
-      "_useUserInfo.59402a95.js",
+      "_user.18d1d1bb.js",
+      "_useGetUserTransactions.e00dc12b.js",
+      "_useUserInfo.9ce74f9c.js",
       "_useCurrency.2c762570.js",
-      "_fetchUsers.760022a9.js",
-      "_useTransactionHistory.f79143e7.js"
+      "_fetchUsers.ca41b78d.js",
+      "_useTransactionHistory.aee483a4.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/index.vue"
@@ -1680,7 +1680,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "notifications.77506218.js",
+    "file": "notifications.677a17e7.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1692,11 +1692,11 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "profile.ad85f308.js",
+    "file": "profile.5b29c614.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js",
-      "_useUserInfo.59402a95.js"
+      "_user.18d1d1bb.js",
+      "_useUserInfo.9ce74f9c.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/profile.vue"
@@ -1706,7 +1706,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "referral.5310bb5f.js",
+    "file": "referral.d464bff1.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1718,7 +1718,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "support.233b3ef0.js",
+    "file": "support.91f5315c.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1740,9 +1740,9 @@ const client_manifest = {
     "css": [
       "trading-plans.edfe7da4.css"
     ],
-    "file": "trading-plans.3df0cf88.js",
+    "file": "trading-plans.cf48a7b9.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1759,14 +1759,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.c75e68eb.js",
+    "file": "index.fa79db65.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
       "_useCurrency.2c762570.js",
       "_useDateFormatter.459847c5.js",
-      "_useTransactionHistory.f79143e7.js",
-      "_user.d31346c8.js",
-      "_sweetalert2.all.8aacdd64.js"
+      "_useTransactionHistory.aee483a4.js",
+      "_user.18d1d1bb.js",
+      "_sweetalert2.all.d2a3158c.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/transactions/index.vue"
@@ -1776,14 +1776,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.6923121f.js",
+    "file": "index.1f87841c.js",
     "imports": [
-      "_Modal.vue.af1b55f5.js",
+      "_Modal.vue.8d7612a5.js",
       "node_modules/nuxt/dist/app/entry.js",
       "_useCurrency.2c762570.js",
       "_useDateFormatter.459847c5.js",
-      "_fetchUsers.760022a9.js",
-      "_user.d31346c8.js"
+      "_fetchUsers.ca41b78d.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/users/index.vue"
@@ -1803,11 +1803,11 @@ const client_manifest = {
     "css": [
       "index.d5177e96.css"
     ],
-    "file": "index.7baf3f5d.js",
+    "file": "index.efddc973.js",
     "imports": [
-      "_client-only.1a4ae6d6.js",
+      "_client-only.2e28761e.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_coloured-avatar.e2e6da83.js"
+      "_coloured-avatar.d1dbd355.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/wallet/index.vue"
@@ -1823,12 +1823,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "_id_.0ef4f082.js",
+    "file": "_id_.83163204.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useAdminInfo.b6127576.js",
-      "_useTransaction.8e467b31.js",
-      "_user.d31346c8.js"
+      "_useAdminInfo.7783e354.js",
+      "_useTransaction.d9e7737b.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/withdrawal/[id].vue"
@@ -1838,13 +1838,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.c6eb98e6.js",
+    "file": "index.319818a4.js",
     "imports": [
-      "_UpdateCryptoWalletModal.58342010.js",
+      "_UpdateCryptoWalletModal.fa67044f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_useUserInfo.59402a95.js",
-      "_assets.d3411b49.js",
-      "_user.d31346c8.js"
+      "_useUserInfo.9ce74f9c.js",
+      "_assets.9dcc6464.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/dashboard/withdrawal/index.vue"
@@ -1854,14 +1854,14 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.65ca9859.js",
+    "file": "index.828a1041.js",
     "imports": [
-      "_EmailInput.vue.56adb1b8.js",
-      "_nuxt-link.d0fba5f7.js",
+      "_EmailInput.vue.1fae2648.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js",
-      "_user.d31346c8.js",
-      "_eye-close.5dada3e8.js"
+      "_logo.54074fe8.js",
+      "_user.18d1d1bb.js",
+      "_eye-close.58436fbc.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/admin/index.vue"
@@ -1878,10 +1878,10 @@ const client_manifest = {
       "two-people-laptops-connected.ca1c0b89.png",
       "supports.0d815322.png"
     ],
-    "file": "advisor.857327a2.js",
+    "file": "advisor.400ec4fb.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_landmark.7cb63ab6.js"
+      "_landmark.89025c28.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/advisor.vue"
@@ -1891,12 +1891,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.9a74d59a.js",
+    "file": "index.c01acdfa.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useAdminInfo.b6127576.js",
-      "_useTransaction.8e467b31.js",
-      "_user.d31346c8.js"
+      "_useAdminInfo.7783e354.js",
+      "_useTransaction.d9e7737b.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/deposits/index.vue"
@@ -1916,15 +1916,15 @@ const client_manifest = {
     "css": [
       "index.9e02ac04.css"
     ],
-    "file": "index.d4c4dfbf.js",
+    "file": "index.783ca631.js",
     "imports": [
-      "_dash3.4697500d.js",
+      "_dash3.cc43f136.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_useUpdateUser.beef8063.js",
-      "_useUserInfo.59402a95.js",
+      "_useUpdateUser.4a663baa.js",
+      "_useUserInfo.9ce74f9c.js",
       "_useCurrency.2c762570.js",
-      "_useGetUserTransactions.cbdea4e4.js",
-      "_user.d31346c8.js"
+      "_useGetUserTransactions.e00dc12b.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/index.vue"
@@ -1940,7 +1940,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "notifications.d42aeca8.js",
+    "file": "notifications.2dcceceb.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -1952,12 +1952,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "profile.5e6add1f.js",
+    "file": "profile.0a2be225.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useUpdateUser.beef8063.js",
-      "_useUserInfo.59402a95.js",
-      "_user.d31346c8.js"
+      "_useUpdateUser.4a663baa.js",
+      "_useUserInfo.9ce74f9c.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/profile.vue"
@@ -1977,9 +1977,9 @@ const client_manifest = {
     "css": [
       "trading-plans.0d88c655.css"
     ],
-    "file": "trading-plans.80715179.js",
+    "file": "trading-plans.1baa9ecd.js",
     "imports": [
-      "_user.d31346c8.js",
+      "_user.18d1d1bb.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -1996,11 +1996,11 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.e250df19.js",
+    "file": "index.dccdde6a.js",
     "imports": [
-      "_useGetUserTransactions.cbdea4e4.js",
+      "_useGetUserTransactions.e00dc12b.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_user.d31346c8.js"
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/transactions/index.vue"
@@ -2020,13 +2020,13 @@ const client_manifest = {
     "css": [
       "index.e7c6be09.css"
     ],
-    "file": "index.b9895ddb.js",
+    "file": "index.3075b254.js",
     "imports": [
-      "_client-only.1a4ae6d6.js",
+      "_client-only.2e28761e.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_coloured-avatar.e2e6da83.js",
-      "_useUserInfo.59402a95.js",
-      "_user.d31346c8.js"
+      "_coloured-avatar.d1dbd355.js",
+      "_useUserInfo.9ce74f9c.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/wallet/index.vue"
@@ -2042,12 +2042,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "_id_.3f6c1beb.js",
+    "file": "_id_.ec57b954.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useAdminInfo.b6127576.js",
-      "_useTransaction.8e467b31.js",
-      "_user.d31346c8.js"
+      "_useAdminInfo.7783e354.js",
+      "_useTransaction.d9e7737b.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/withdrawal/[id].vue"
@@ -2057,13 +2057,13 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "index.fdf41a1f.js",
+    "file": "index.a743e850.js",
     "imports": [
-      "_UpdateCryptoWalletModal.58342010.js",
+      "_UpdateCryptoWalletModal.fa67044f.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_useUserInfo.59402a95.js",
-      "_assets.d3411b49.js",
-      "_user.d31346c8.js"
+      "_useUserInfo.9ce74f9c.js",
+      "_assets.9dcc6464.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/withdrawal/index.vue"
@@ -2073,12 +2073,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "new-withdrawal.b2ba81f4.js",
+    "file": "new-withdrawal.380646b3.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_useUserInfo.59402a95.js",
-      "_useTransaction.8e467b31.js",
-      "_user.d31346c8.js"
+      "_useUserInfo.9ce74f9c.js",
+      "_useTransaction.d9e7737b.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/dashboard/withdrawal/new-withdrawal.vue"
@@ -2091,9 +2091,9 @@ const client_manifest = {
     "assets": [
       "airplane.047e33d5.svg"
     ],
-    "file": "forgot-password-success.e77bbd91.js",
+    "file": "forgot-password-success.aa168d29.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js"
     ],
     "isDynamicEntry": true,
@@ -2104,12 +2104,12 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "forgot.5d994e19.js",
+    "file": "forgot.c756b927.js",
     "imports": [
-      "_EmailInput.vue.56adb1b8.js",
+      "_EmailInput.vue.1fae2648.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js",
-      "_eye-close.5dada3e8.js"
+      "_logo.54074fe8.js",
+      "_eye-close.58436fbc.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/forgot.vue"
@@ -2138,11 +2138,11 @@ const client_manifest = {
     "css": [
       "index.6f957872.css"
     ],
-    "file": "index.e3da4c5e.js",
+    "file": "index.e0574c50.js",
     "imports": [
-      "_nuxt-link.d0fba5f7.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_landmark.7cb63ab6.js"
+      "_landmark.89025c28.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/index.vue"
@@ -2158,7 +2158,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "investing.8417857e.js",
+    "file": "investing.a5fb5245.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -2170,15 +2170,15 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "login.513fe4ef.js",
+    "file": "login.90695d4f.js",
     "imports": [
-      "_EmailInput.vue.56adb1b8.js",
-      "_nuxt-link.d0fba5f7.js",
+      "_EmailInput.vue.1fae2648.js",
+      "_nuxt-link.35f94b51.js",
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js",
-      "_useLogin.2894eea2.js",
-      "_eye-close.5dada3e8.js",
-      "_user.d31346c8.js"
+      "_logo.54074fe8.js",
+      "_useLogin.0c1b3ef7.js",
+      "_eye-close.58436fbc.js",
+      "_user.18d1d1bb.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/login.vue"
@@ -2191,7 +2191,7 @@ const client_manifest = {
     "assets": [
       "profile.aedf1af2.png"
     ],
-    "file": "profile.31a34255.js",
+    "file": "profile.039f78fb.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -2203,10 +2203,10 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "reset.80c82e1f.js",
+    "file": "reset.a4cfdf2b.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_logo.6c7fcc80.js"
+      "_logo.54074fe8.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/reset.vue"
@@ -2229,10 +2229,10 @@ const client_manifest = {
     "css": [
       "_id_.720312e0.css"
     ],
-    "file": "_id_.6334ce34.js",
+    "file": "_id_.9b8cab9f.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_eye-close.5dada3e8.js"
+      "_eye-close.58436fbc.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/signup/[id].vue"
@@ -2258,7 +2258,7 @@ const client_manifest = {
     "css": [
       "index.6409441e.css"
     ],
-    "file": "index.de0aa804.js",
+    "file": "index.dcb82c57.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js"
     ],
@@ -2283,7 +2283,6 @@ const client_manifest = {
       "AwardFebruarybankrate.14378e63.png",
       "AwardStore.b5d98508.png",
       "401Kroadmap.61139285.png",
-      "Compliancehub.9084db87.png",
       "onboardingdashboard.83930930.png",
       "updated-logos-payroll-integrations.9915070c.png",
       "BettermentatWorkDashboard.b9787eee.png",
@@ -2293,10 +2292,10 @@ const client_manifest = {
       "resourcesBMT.f5620e9f.webp",
       "videohowitworks.23b8b53a.png"
     ],
-    "file": "work.31f4ad8e.js",
+    "file": "work.6077c33a.js",
     "imports": [
       "node_modules/nuxt/dist/app/entry.js",
-      "_landmark.7cb63ab6.js"
+      "_landmark.89025c28.js"
     ],
     "isDynamicEntry": true,
     "src": "pages/work.vue"
